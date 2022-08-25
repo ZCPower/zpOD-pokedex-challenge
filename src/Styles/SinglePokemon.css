@@ -1,0 +1,94 @@
+#pokeContainer {
+    outline: 2px solid #ddd;
+    padding: .5em;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    border-radius: 20px;
+}
+
+#pokeContainer h2 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 36px;
+}
+
+#pokeContainer img {
+    width: 15vw;
+    justify-self: center;
+    align-self: center;
+}
+
+.pokeHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pokeBody {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pokeBody h5 {
+    font-size: 20px;
+}
+
+.pokeBody div {
+    margin: 0 .65em;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.favButton {
+    margin: 2em 1em 1em 1em;
+
+}
+
+
+.favorite {
+    outline: 1px solid black;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    margin: .25em;
+
+}
+
+.favContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    text-align: center;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5em;
+}
+
+.faves {
+    display: flex;
+    margin-top: 2em;
+    flex-wrap: wrap;
+}
+
+.removeFav {
+    font-size: 20px;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    list-style: none;
+    margin: 0 1em;
+}
+
+a {
+    color: white;
+    font-size: 20px;
+}
