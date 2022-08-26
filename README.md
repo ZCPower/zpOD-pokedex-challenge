@@ -17,6 +17,7 @@ With another couple hours I could've gotten these components made and the applic
 ### What went well.
 Navigating the API, besides the pokedex entries.
 Using splice method to remove individual pokemon from the favorites state array.
+Taking the data from the API and passing it down as props to singlePokemon component. Mapping through this data allowed the user to view pokemon type, stats, and abilities.
 
 
 
